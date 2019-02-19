@@ -1,0 +1,280 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>jQuery Dropdown On Hover Plugin Demos</title>
+<link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/bootstrap-dropdownhover.css">
+<style>
+
+body { background-color:#eee;}
+.dropdown-inline {
+	display: inline-block;
+	position: relative;
+}
+</style>
+</head>
+
+<body>
+
+<!-- <div id="jquery-script-menu">
+<div class="jquery-script-center">
+
+<div class="jquery-script-ads">
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>
+<div class="jquery-script-clear"></div>
+</div>
+</div> -->
+
+
+<div class="bs-demo-dropdowns text-center" style="margin-top:150px;">
+        <div class="container">
+          <div class="dropdown dropdown-inline">
+            <a href="#" class="btn btn-default dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">Certifications &amp; Courses</a>
+            <ul class="dropdown-menu" role="menu">
+              <li class="dropdown">
+                <a href="#">New Courses</a>
+                <ul class="dropdown-menu dropdownhover-right">
+                  <li><a href="#">AWS Cloud Practitioner Essentials</a></li>
+                  <li><a href="#">VMware vSphere:Install, Configure, Manage [V6.7]</a></li>
+                </ul>
+              </li>
+
+              <li class="dropdown">
+                <a href="#">Top Courses</a>
+                  <ul class="dropdown-menu dropdownhover-right">
+                    <li><a href="#">Implementing Microsoft Azure Infrastructure Solutions</a></li>
+                    <li><a href="#">Certified Ethical Hacker</a></li>
+                    <li><a href="#">CCNA Routing &amp; Switching</a></li>
+                    <li><a href="#">Certified Information System Security Professional</a></li>
+                    <li><a href="#">VMware NSX: Install, Confugue, Manage</a></li>
+                    <li><a href="#">VMware vSAN: Deploy and Manage [V6.6]</a></li>
+                    <li><a href="#">Project Management Professional Certification Prep</a></li>
+                    <li><a href="#">ITIL 2011 Foundation</a></li>
+                    <li><a href="#">Red Hat System Administration</a></li>
+                    <li><a href="#">Identity with Windows Server 2016</a></li>
+                    <li><a href="#">Installation, Storage and Compute with Windows Server 2016</a></li>
+                    <li><a href="#">Developing Microsoft Azure Solutions</a></li>
+                    <li><a href="#">Red Hat System Administration || with RHCSA Exam</a></li>
+                  </ul>
+              </li>
+
+              <li class="dropdown">
+                <a href="#">Microsoft</a>
+                <ul class="dropdown-menu dropdownhover-right">
+                  <li class="dropdown">
+                    <a href="#">Windows Server 2016</a>
+                  </li>
+                  <li class="dropdown">
+                    <a href="#">Windows Server 2012</a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Installing and Configuring Server 2012 R2 </a></li>
+                        <li><a href="#">Migrating to Windows r2 </a></li>
+                      </ul>
+                  </li>
+
+                  <li class="dropdown">
+                    <a href="#">Microsoft System Center</a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Administering System Center Configuration Manager and Intune </a></li>
+                        <li><a href="#">Administering System Center Configuration Manager</a></li>
+                        <li><a href="#">Planning and Deploying System Center 2012 Configuration Manager</a></li>
+                        <li><a href="#">Server Virtualization with Windows Server Hyper-V and System Center Virtual Machine Manager 2012 R2</a></li>
+                        <li><a href="#">Cloud and Datacenter Monitoring with System Center Operations Manager 2012 R2</a></li>
+                        <li><a href="#">Hybrid Cloud and Datacenter Monitoring with Oprations Management Suite</a></li>
+                        <li><a href="#">Implementing a Software-Defined Data Center</a></li>
+                      </ul>
+                  </li>
+
+                  <li class="dropdown">
+                    <a href="#">Windows Powershell</a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Automating Administration with Windows Powershell</a></li>
+                        <li><a href="#">Advanced Automated Administration with Windows Powershell 4.0</a></li>
+                        <li><a href="#">MS-55039: Windows PowerShell Scripting and Toolmaking</a></li>
+                        <li><a href="#">Microsoft Windows PowerShell v2 For Administrators</a></li>
+                        <li><a href="#">55207A: PowerShell for SQL Administration</a></li>
+                      </ul>
+                  </li>
+
+                  <li class="dropdown">
+                    <a href="#">Microsoft Exchange Server</a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Administering Microsoft Exchange Server 2016</a></li>
+                        <li><a href="#">Designing and Deploying Microsoft Exchange Server 2016</a></li>
+                        <li><a href="#">Advanced Solutions of Microsoft Exchange Server 2013</a></li>
+                        <li><a href="#">Migrating to Exchange 2013</a></li>
+                        <li><a href="#">Designing & Deploying Messaging Solutions with Microsoft Exchange Server</a></li>
+                      </ul>
+                  </li>
+
+                  <li class="dropdown">
+                    <a href="#">Microsoft Office</a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">MS Office 2016</a></li>
+                      </ul>
+                  </li>
+
+                  <li class="dropdown">
+                    <a href="#">Sharepoint</a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Sharepoint 2016</a></li>
+                      </ul>
+                  </li>
+
+                  <li class="dropdown">
+                    <a href="#">Microsoft Office 365</a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">10997A: Office 365 Administration and Troubleshooting</a></li>
+                      </ul>
+                  </li>
+
+
+                </ul>
+              </li>
+
+              <li class="dropdown">
+                <a href="#">VMware</a>
+                <ul class="dropdown-menu dropdownhover-right">
+                  <li class="dropdown">
+                    <a href="#">VMare Data Center Virtulazation</a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">VMware vSphere: Install, Configure, Manage [V6.5]</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown">
+                    <a href="#">VMware Cloud Management &amp; Automation</a>
+                      <ul class="dropdown-menu">
+                        <li> <a href="#">VMware vRealize Automation: Install, Configure, Manage [V7.3]</a></li>
+                      </ul>
+                  </li>
+                  <li class="dropdown">
+                    <a href="#">VMware Network Virtulazation</a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">VMware NSX: Install, Configure, Manage [6.4]</a></li>
+                      </ul>
+                  </li>
+                  <li class="dropdown">
+                    <a href="#">VMware Desktop & Mobility</a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">VMware Horizon 7: Install, Configure, Manage [V7.3]</a></li>
+                      </ul>
+                  </li>
+                  <li class="dropdown">
+                    <a href="#">VMware Airwatch</a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">VMware AirWatch: Configure and Manage</a></li>
+                      </ul>
+                  </li>
+
+                </ul>
+              </li>
+
+              <li class="dropdown">
+                <a href="#">PMI</a>
+                <ul class="dropdown-menu dropdownhover-right">
+                  <li class="dropdown">
+                    <a href="#">Project Management</a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Project Management Professional Certification Prep</a></li>
+                    </ul>
+                  </li>
+
+                </ul>
+              </li>
+
+              <li class="dropdown">
+                <a href="#">CISCO</a>
+                <ul class="dropdown-menu dropdownhover-right">
+                  <li class="dropdown">
+                    <a href="#">CCNA</a>
+                    <a href="#">CCNP</a>
+                    <a href="#">CCIE</a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="dropdown">
+                <a href="#">EC-Council</a>
+                <ul class="dropdown-menu dropdownhover-right">
+                  <li class="dropdown">
+                    <a href="#">Security Testing</a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Certified Ethical Hacker (CEH v10)</a></li>
+                      <li><a href="#">Computer Hacking Forensic Investigator (CHFI) V9</a></li>
+                      <li><a href="#">EC-Council Certified Security Analyst (ECSA v9)</a></li>
+                      <li><a href="#">EC-Council Disaster Recovery Professional</a></li>
+                      <li><a href="#">Advanced Network Defense</a></li>
+                      <li><a href="#">SNORT IDS/IPS</a></li>
+                    </ul>
+                  </li>
+
+                </ul>
+              </li>
+
+              <li class="dropdown">
+                <a href="#">Red Hat</a>
+                <ul class="dropdown-menu dropdownhover-right">
+                  <li class="dropdown">
+                    <a href="#">Red Hat Server Administration</a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Red Hat System Administration I</a></li>
+                      <li><a href="#">Red Hat System Administration II with RHCSA Exam</a></li>
+                      <li><a href="#">Red Hat System Administration III with RHCSA and RHCE Exam</a></li>
+                      <li><a href="#">Red Hat Server Hardening</a></li>
+                      <li><a href="#">Apache and Secure Web Server Administration</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown">
+                    <a href="#">Red Hat Cloud</a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Red Hat OpenShift Administration (DO280)</a></li>
+                        <li><a href="#">Red Hat OpenStack Administration II</a>
+                      </ul>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="dropdown">
+                <a href="#">ISO Certifications</a>
+                <ul class="dropdown-menu dropdownhover-right">
+                  <li><a href="#">ISO 9001:2015</a></li>
+                  <li><a href="#">ISO 27001:2013</a></li>
+                  <li><a href="#">ISO 14001:2015</a></li>
+                  <li><a href="#">ISO 20000:2011</a></li>
+                  <li><a href="#">ISO 29990:2010</a></li>
+                  <li><a href="#">OHSAS 18001:2017</a></li>
+                </ul>
+              </li>            
+            </ul>
+          </div>
+        </div>
+</div>
+
+
+
+<script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="js/bootstrap-dropdownhover.js"></script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>
